@@ -1,0 +1,16 @@
+#install the required packages
+pip install -r requirements.txt
+
+#For development purposes, we can start a local HTTP 
+server by entering the following command in the directory 
+with your files to host:
+
+python3 -m 'http.server' 8084
+
+
+To exit this server, press control + Z. To delete running 
+instances, first use the following command to print 
+all running processes:
+ps -fA | grep python
+
+kill -9 PID
